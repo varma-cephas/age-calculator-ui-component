@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("assets/fonts/Poppins-Regular.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url("assets/fonts/Poppins-ExtraBoldItalic.ttf") format('truetype');
+}
+
+
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("assets/fonts/Poppins-Bold.ttf") format('truetype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+   box-sizing: border-box;
+   box-sizing: inherit;
+   background-color: hsl(0, 0%, 86%);
+   font-family: Poppins-Regular;
+}
+
+.date-card{
+    /* border: 2px solid indianred; */
+    width: 44%;
+    margin: 0 auto;
+    height: 41.4em;
+    background-color: white;
+    border-radius: 1rem 1rem 13rem  1rem;
+}
+.input-field{
+    display: flex;
+    text-align: center;
+    /* border: 2px solid slateblue;    */
+    height: 150px;
+    margin: 0.4rem 0 0 0;
+}
+
+.output-field{
+    /* border: 2px solid slateblue;  */
+    margin: 1.0rem 0 0 2.5rem;
+}
+
+.line{
+    height: 1px;
+    width: 620px;
+    background: hsl(0, 0%, 50%);
+    /* border: 1px solid ; */
+    margin: 2rem 0 0 2.5rem;
+}
+
+.day-field{
+    display: block;
+    border: 1px solid grey;
+    width: 7.5rem;
+    height: 2.5rem;
+    font-family: Poppins-Bold;
+    font-size: 27px;
+    text-align: left;
+    padding: 0.5rem 0 0.5rem 0.8rem;
+    border-radius: 6px;
+    color: hsl(0, 0%, 50%);
+}
+
+.day-text{
+    color: hsl(0, 0%, 50%);
+    /* border: 1px solid blue; */
+    margin: 0 5.9rem 0 0;
+    font-weight: 800;
+    font-size: 16px;
+}
+.day{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+    margin: 3.0rem 1.2rem 0 2.5rem;
+}
+
+.month-field{
+    display: block;
+    border: 1px solid grey;
+    /* margin-left: 20px; */
+    width: 7.5rem;
+    height: 2.5rem;
+    font-family: Poppins-Bold;
+    font-size: 27px;
+    text-align: left;
+    padding: 0.5rem 0 0.5rem 0.8rem;
+    border-radius: 6px;
+    color: hsl(0, 0%, 50%);
+}
+
+.month{
+    /* border: 1px solid green; */
+    margin-left: 10px;
+    margin: 3.0rem 1.2rem 0 0;
+}
+
+.month-text{
+    color: hsl(0, 0%, 50%);
+    /* border: 1px solid blue; */
+    margin-right: 5.0rem;
+    font-weight: 800;
+    font-size: 16px;
+}
+.year-field{
+    display: block;
+    border: 1px solid grey;
+    /* margin-left: 20px; */
+    width: 7.5rem;
+    height: 2.5rem;
+    font-family: Poppins-Bold;
+    font-size: 27px;
+    text-align: left;
+    padding: 0.5rem 0 0.5rem 0.8rem;
+    border-radius: 6px;
+    color: hsl(0, 0%, 50%);
+}
+
+.year-text{
+    color: hsl(0, 0%, 50%);
+    /* border: 1px solid blue; */
+    margin-right: 6.0rem;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.year{
+    /* border: 1px solid green; */
+    margin-left: 10px;
+    margin: 3.0rem 0 0 0;
+}
+
+
+.years-output{
+    /* border: 1px solid yellow; */
+    width: 700px;
+    font-size: 100px;
+    font-family: Poppins-ExtraBold;
+    /* font-weight: bolder; */
+}
+
+.months-output{
+    /* border: 1px solid yellow; */
+    width: 700px;
+    font-size: 100px;
+    font-family: Poppins-ExtraBold;
+    /* font-weight: bolder; */
+}
+
+
+.days-output{
+    /* border: 1px solid yellow; */
+    width: 700px;
+    font-size: 100px;
+    font-family: Poppins-ExtraBold;
+    /* font-weight: bolder; */
+}
+
+
+.empty-num-color{
+    color: hsl(259, 100%, 65%);
+}
+
+/* .months-output{
+    border: 1px solid olive;
+} */
+
+
+/* .days-output{
+    border: 1px solid peachpuff;
+} */
+
+
+@media (max-width: 1440px) and (max-height: 756px) {
+    .date-card {
+        /* color: red; */
+        width: 57%;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
