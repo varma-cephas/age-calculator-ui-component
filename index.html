@@ -8,6 +8,7 @@
   
   <title>Frontend Mentor | Age calculator app</title>
   <link rel="stylesheet" href="main.css">
+  <script src="app.js" defer></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
@@ -18,37 +19,41 @@
 
 <div class="day">
   <span class="day-text">Day</span> 
-<span class="day-field">DD</span>  
+<!-- <span >DD</span>   -->
+<input class="day-field" type="text" placeholder="DD">
   </div>
 
 <div class="month">
   <span class="month-text">Month</span>
-<span class="month-field">MM</span>
+<!-- <span >MM</span> -->
+<input class="month-field" type="text" placeholder="MM">
 
 </div>
 
 <div class="year">
   <span class="year-text">Year</span> 
- <span class="year-field">YYYY</span>
+ <!-- <span >YYYY</span> -->
+ <input class="year-field" type="text" placeholder="YYYY">
 </div>
 </section>
 
-<section>
+<section id="line-button">
   <div class="line">
   </div>
+<img class="svgButton" src="assets/images/icon-arrow.svg" alt="">
 </section>
 
 
 <section class="output-field">
 <div class="years-output">
-  <span  class="empty-num-color">--</span>  
+  <span id="ageYears" class="empty-num-color">--</span>  
   <span>years</span>
 </div>
-<div class="months-output"> <span class="empty-num-color">--</span> 
+<div class="months-output"> <span id="ageMonths" class="empty-num-color">--</span> 
   <span>months</span>
 </div>
 <div class="days-output"> 
-  <span class="empty-num-color">--</span>
+  <span id="ageDays" class="empty-num-color">--</span>
   <span>days</span>
 </div>
 </section>
