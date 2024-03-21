@@ -26,13 +26,14 @@ html{
    box-sizing: inherit;
    background-color: hsl(0, 0%, 86%);
    font-family: Poppins-Regular;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
 }
 
 .date-card{
     /* border: 2px solid indianred; */
-    width: 44%;
-    margin: 0 auto;
-    height: 41.4em;
     background-color: white;
     border-radius: 1rem 1rem 13rem  1rem;
 }
